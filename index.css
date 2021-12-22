@@ -1,0 +1,62 @@
+.bg{
+    height: 600px;
+    background-image: url('./img/craftswoman.png');
+    background-size: cover;
+}
+
+.logo{
+    height: 50px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.imgContent{
+    height: 550px; 
+    color: white; 
+    display: flex; 
+    flex-flow: column; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 30px;
+}
+
+.playBtn {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+    border-radius: 75px;
+    color: white; 
+    cursor: pointer;
+}
+   
+.playBtn::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 60px solid;
+    top: 45px;
+    left: 50px
+}
+
+.txtContent{
+    text-align: center;
+    padding: 100px;
+    margin-top: -50px;
+}
+
+.myBtn{
+    color: black;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    padding: -50px;
+}

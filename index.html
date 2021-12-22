@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+    <title>dashlane</title>
+</head>
+<body>
+    <div class="card" style="width: 100%;">
+        <div class="bg">
+            <div class="logo">
+                <img src="./img/dashlane1.png" height="50px" alt="Dashlane logo">
+            </div>
+            <div class="imgContent">
+                <h2 class="playBtn" id="playBtn"></h2><br>
+                <h1>Watch a video</h1><br>
+                <button type="button" onclick="btnClicked()" class="btn btn-warning"><h5 style="margin-top: 7px; color: white;">Download Dashlane</h5></button>
+            </div>
+        </div>
+        <div class="txtContent">
+            <div class="row">
+                <div class="col-3">
+                    <img src="./img/dashlane2.png" alt="Logo">
+                    <h4>What's Dashlane</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi qui aliquid accusantium error voluptate. Voluptates culpa, magnam impedit vel voluptas ducimus, quos voluptatem ex hic deleniti eaque aspernatur explicabo itaque aut et! Debitis quae quidem, nesciunt ex porro minus ab ad laborum, adipisci eos, culpa minima sint explicabo esse.</p>
+                </div>
+                <div class="col-3">
+                    <img src="./img/dashlane3.png" alt="Strong Passwords">
+                    <h4>Strong Passwords</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi qui aliquid accusantium error voluptate. Voluptates culpa, magnam impedit vel voluptas ducimus, quos voluptatem ex hic deleniti eaque aspernatur explicabo itaque aut et! Debitis quae quidem, nesciunt ex porro minus ab ad laborum, adipisci eos, culpa minima sint explicabo esse.</p>
+                </div>
+                <div class="col-3">
+                    <img src="./img/dashlane4.png" alt="Secure Passwords">
+                    <h4>Secure Passwords</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi qui aliquid accusantium error voluptate. Voluptates culpa, magnam impedit vel voluptas ducimus, quos voluptatem ex hic deleniti eaque aspernatur explicabo itaque aut et! Debitis quae quidem, nesciunt ex porro minus ab ad laborum, adipisci eos, culpa minima sint explicabo esse.</p>
+                </div>
+                <div class="col-3">
+                    <img src="./img/dashlane5.png" alt="Autologins Everywhere">
+                    <h4>Autologins Everywhere</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quasi qui aliquid accusantium error voluptate. Voluptates culpa, magnam impedit vel voluptas ducimus, quos voluptatem ex hic deleniti eaque aspernatur explicabo itaque aut et! Debitis quae quidem, nesciunt ex porro minus ab ad laborum, adipisci eos, culpa minima sint explicabo esse.</p>
+                </div>
+            </div><br><br>
+            <div id="accordion">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <b class="mb-0">
+                      <button class="btn btn-link myBtn collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        What happens if I lose my phone or my laptop gets stolen?
+                      </button>
+                    </b>
+                  </div>
+              
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <b class="mb-0">
+                      <button class="btn btn-link myBtn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        How secure are my passwords if they are all stored in the same place?
+                      </button>
+                    </b>
+                  </div>
+                  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <b class="mb-0">
+                      <button class="btn btn-link myBtn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Can I import my passwords from a spreadsheet/ another application?
+                      </button>
+                    </b>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
